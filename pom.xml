@@ -19,12 +19,12 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <springversion>4.3.10.RELEASE</springversion>
-        <junitversion>3.8.1</junitversion>
+        <junitversion>4.12</junitversion>
     </properties>
 
 
     <dependencies>
-
+        <!-- https://mvnrepository.com/artifact/junit/junit -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
