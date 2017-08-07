@@ -16,14 +16,14 @@ public class UserDAOImpl {
     @Autowired
     private JdbcTemplate template;
 
-    public JdbcTemplate getTemplate() {
-        return template;
-    }
+//    public JdbcTemplate getTemplate() {
+//        return template;
+//
+//    public void setTemplate(JdbcTemplate template) {
+//        this.template = template;
+//    }
 
-    public void setTemplate(JdbcTemplate template) {
-        this.template = template;
-    }
-
+    //    }
     public List getList() {
         return template.queryForList("SELECT * FROM user");
     }
